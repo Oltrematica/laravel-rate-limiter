@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-role-init` will be documented in this file.
 
+## Added default config values - 2025-03-07
+
+**Full Changelog**: https://github.com/Oltrematica/laravel-rate-limiter/compare/v1.0.0...v1.0.1
+
 ## Initial Release of Oltrematica Laravel Rate Limiter - 2025-03-07
 
 This is the initial stable release of the Oltrematica Laravel Rate Limiter package. It provides a simple and configurable way to manage rate limiting for API routes in Laravel applications.
