@@ -45,7 +45,7 @@ class RateLimiterServiceProvider extends LaravelServiceProvider
         $ignoreAdmins = config('rate-limiter.api.ignore_admins', true);
 
         /** @var int $limit */
-        $limit = config('rate-limiter.api.limit');
+        $limit = config('rate-limiter.api.limit', 60);
 
         RateLimiter::for('api',
             function (Request $request) use ($limit, $ignoreAdmins) {
@@ -77,10 +77,10 @@ class RateLimiterServiceProvider extends LaravelServiceProvider
     public function configureLoginRateLimiters(): void
     {
         /** @var int $login_per_minute */
-        $login_per_minute = config('rate-limiter.api.login.limit_per_minute');
+        $login_per_minute = config('rate-limiter.api.login.limit_per_minute', 60);
 
         /** @var int $login_per_email */
-        $login_per_email = config('rate-limiter.api.login.limit_per_email');
+        $login_per_email = config('rate-limiter.api.login.limit_per_email', 10);
 
         /**
          * Rate Limit Login
@@ -102,7 +102,7 @@ class RateLimiterServiceProvider extends LaravelServiceProvider
     public function configureRegisterRateLimiters(): void
     {
         /** @var int $register_limit */
-        $register_limit = config('rate-limiter.api.register.limit');
+        $register_limit = config('rate-limiter.api.register.limit', 60);
 
         /**
          * Rate Limit Register
