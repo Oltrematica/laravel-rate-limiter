@@ -1,5 +1,9 @@
 ![GitHub Tests Action Status](https://github.com/Oltrematica/laravel-rate-limiter/actions/workflows/run-tests.yml/badge.svg)
 ![GitHub PhpStan Action Status](https://github.com/Oltrematica/laravel-rate-limiter/actions/workflows/phpstan.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/oltrematica/laravel-ratelimiter.svg?style=flat-square)](https://packagist.org/packages/oltrematica/laravel-ratelimiter)
+[![Total Downloads](https://img.shields.io/packagist/dt/oltrematica/laravel-ratelimiter.svg?style=flat-square)](https://packagist.org/packages/oltrematica/laravel-ratelimiter)
+
+
 
 # Oltrematica API Rate Limiter
 
