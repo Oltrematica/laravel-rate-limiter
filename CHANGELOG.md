@@ -1,8 +1,16 @@
 # Changelog
 
-All notable changes to `laravel-role-init` will be documented in this file.
+All notable changes to `laravel-ratelimiter` will be documented in this file.
 
-## Added default config values - 2025-03-07
+## v1.1.0 - Laravel 13 support - 2026-03-27
+
+- Add Laravel 13 (`illuminate/contracts ^13.0`) support
+- Add Orchestra Testbench 11 support
+- Update CI workflow to test against Laravel 13
+
+**Full Changelog**: https://github.com/Oltrematica/laravel-rate-limiter/compare/v1.0.1...v1.1.0
+
+## v1.0.1 - Added default config values - 2025-03-07
 
 **Full Changelog**: https://github.com/Oltrematica/laravel-rate-limiter/compare/v1.0.0...v1.0.1
 
